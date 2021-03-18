@@ -1,7 +1,7 @@
 // useEffect: persistent state
 // http://localhost:3000/isolated/exercise/02.js
 
-// EX + EXTRA-1 + EXTRA-2 + ENTRA-3
+// EX + EXTRA-1 + EXTRA-2 + EXTRA-3
 
 import * as React from 'react'
 
@@ -44,7 +44,7 @@ export default App
 
 // import * as React from 'react'
 
-// function useLocaleStorageState(getParam, fnParam, {serialize = JSON.stringify, deserialize = JSON.parse}){
+// function useLocaleStorageState(getParam, fnParam = '', {serialize = JSON.stringify, deserialize = JSON.parse} = {}){
 //     const [state, setState] = React.useState(() => {
 //         const valueInLocaleStorage = window.localStorage.getItem(getParam)
 //         if(valueInLocaleStorage){
